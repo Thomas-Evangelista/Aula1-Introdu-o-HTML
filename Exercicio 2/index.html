@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+
+    <style>
+        body {
+            margin: 0 auto;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+        }
+        .caixa-fundo {
+            width: 100%;
+            display: flex;
+            background-color: #e9ecef;
+        }
+        .caixa-coluna {
+            width: 72%;
+            margin-left: 2%;
+            margin-top: 5%;
+            padding-bottom: 1%;
+            vertical-align: top;
+            border-radius: 10px;
+            background-color: #ced4da;
+        }
+        .caixa-colunaE {
+            width: 20%;
+            height: 90vh;
+            margin-left: 3%;
+            margin-top: 5%;
+            padding-bottom: 1%;
+            border-radius: 10px;
+            vertical-align: top;
+            background-color: #ced4da;
+        }
+        .caixa-linha {
+            width: 90%;
+            margin-top: 2%;
+            margin-left: 5%;
+            display: flex;
+        }
+        .card {
+            width: 42%;
+            height: 38vh;
+            margin-top: 1.5%;
+            margin-left: 5%;
+            border-radius: 10px;
+            background-color: #adb5bd;
+        }
+        .card img{
+            width: 100%;
+            height: 38vh;   
+            border-radius: 10px;
+        }
+        .card p{
+            text-align: justify;
+            padding: 10px;
+        }
+        .card h2{
+            text-align: center;
+        }
+        .caixa-coluna h1{
+            text-align: center;
+            font-size: 50px;
+        }
+        .caixa-colunaE h1{
+            text-align: center;
+        }
+        .caixa-colunaE p{
+            width: 100%;
+            margin: 0;
+            font-size: 20px;
+            padding: 15px;
+            text-align: justify;
+        }
+        .RemoveM{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .caixa-colunaE p:hover{
+            background-color: #212529;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+            color: #ced4da;
+            transition: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- caixa-fundo: Serve para permirtir organizar o layout de diferentes formas -->
+    <div class="caixa-fundo">
+        <!-- caixa-colunaE: E a caixa (div) que está a esquerda no site, onde ficará os links -->
+        <div class="caixa-colunaE">
+            <!-- h1: Tag titulo Dentro da Coluna da esquerda -->
+            <h1>CONHEÇA MAIS LUGARES</h1>
+
+            <!-- caixa-linha: Serve para cliar uma linha para criar uma area costumizada do link -->
+            <div class="caixa-linha RemoveM">
+                <p>COLISEU</p>
+            </div>
+            <div class="caixa-linha RemoveM">
+                <p>PIRÂMIDES DE GIZE</p>
+            </div>
+            <div class="caixa-linha RemoveM">
+                <p>TORRE EIFFEL</p>
+            </div>
+            <div class="caixa-linha RemoveM">
+                <p>CRISTOR REDENTOR</p>
+            </div>
+            <div class="caixa-linha RemoveM">
+                <p>TAJ MAHAL</p>
+            </div>
+            <div class="caixa-linha RemoveM">
+                <p>CATEDRAL DE MILÃO</p>
+            </div>
+            <div class="caixa-linha RemoveM">
+                <p>PARK YELLOWSTONE</p>
+            </div>
+            <div class="caixa-linha RemoveM">
+                <p>ESTATUA DA LIBERDADE</p>
+            </div>
+            <div class="caixa-linha RemoveM">
+                <p>MACHU PICCHU</p>
+            </div>
+            <div class="caixa-linha RemoveM">
+                <p>MALDIVAS</p>
+            </div>
+            <!-- ----------------- -->
+        </div>
+        
+        <!-- caixa-coluna: div responsavel por organizar os elemento no meio do site -->
+        <div class="caixa-coluna">
+            <h1>PONTOS TURISTICOS</h1>
+
+            <!-- caixa-linha: responsavel por organizar as imagems e o texto na mesma linha -->
+            <div class="caixa-linha">
+
+                <!-- Card: responsavel por criar uma mini caixa para permirtir ao usuario que coloque conteudo -->
+                <div class="card">
+                    <img src="./IMG/1.jpg" alt="">
+                </div>
+
+                <!-- Card: responsavel por criar uma mini caixa para permirtir ao usuario que coloque conteudo -->
+                <div class="card">
+                    <h2>MURALHA DA CHINA</h2>
+                    <p>
+                            A Muralha da China começou a ser construída em 220 a.C, a partir das ordens de Qin Shihuang, imperador chinês daquela época. 
+                        A mesma foi finalizada somente no século XVI. A muralha foi erguida em razão da grande incidência de invasões dos povos do norte
+                        vindos da Mongólia e da Manchúria. A muralha foi erguida em razão da grande incidência de invasões dos povos do norte
+                        vindos da Mongólia e da Manchúria.
+                    </p>
+                </div>
+            </div>
+            <div class="caixa-linha">
+                <div class="card">
+                    <h2>COLISEU</h2>
+                    <p>
+                        O Coliseu de Roma é um dos monumentos mais famosos do mundo. 
+                        O mesmo foi construído no século I d.C, e foi palco de grandes batalhas de gladiadores e de espetáculos públicos.
+                    </p>
+                    <p>
+                        O Coliseu de Roma é um dos monumentos mais famosos do mundo. 
+                        O mesmo foi construído no século I d.C, e foi palco de grandes batalhas de gladiadores e de espetáculos públicos.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./IMG/2.webp" alt="">
+                </div>
+            </div>
+            <div class="caixa-linha">
+                <div class="card">
+                    <img src="https://img.freepik.com/fotos-gratis/vista-do-monumento-mundial-para-comemorar-o-dia-do-patrimonio-mundial_23-2151297220.jpg?ga=GA1.1.1443471084.1742220630&semt=ais_hybrid" alt="">
+                </div>
+                <div class="card">
+                    <h2>MURALHA DA CHINA</h2>
+                    <p>
+                        As pirâmides de Gizé são: pirâmides de Quéops, Quéfren e Miquerinos, as maiores e mais importantes do Egito. 
+                        Dentro delas existem passagens subterrâneas, câmaras mortuárias, corredores estreitos e íngremes e galerias.
+                        Tudo feito para abrigar os túmulos de faraós, dada a importância que a morte e o pós-vida tinham para os egípcios.
+                    </p>
+                </div> 
+            </div>
+            <!-- ----------------- -->
+        </div>
+    </div>
+</body>
+</html>
